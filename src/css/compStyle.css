@@ -1,0 +1,100 @@
+.App{
+    background-color: #f0f0f0;
+}
+.App-header {
+    padding: 10px;
+}
+.page-title {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    
+}
+.set-font-border {
+    border: 2px solid transparent;
+    border-bottom-color: #f0f0f0;
+}
+.filter-text {
+    text-align: left;
+    margin: 5px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}    
+
+.cat-sub-container {
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    min-height: 400px;
+    height: 400px;
+}
+.year-button {
+    background-color: #82cc82;
+    border: none;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.filter-contaniner {
+    background-color: #fff;
+    min-width: 190px;
+    width: 190px;
+    margin: 30px;
+    margin-top: 10px;
+    text-align: center;
+    min-height: 750px;
+    height: 750px;
+}
+.main-container {
+    display: flex;
+}
+.cumsover > img {
+    width: 200px;
+    min-width: 200px;
+    height: 200px;
+    min-height: 200px;
+    background-color: #f0f0f0;
+}
+.main-container > .cat-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-group-item {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 5px;
+}
+.float-md-right {
+    float: right;
+    font-weight: normal;
+    color: blue;
+}
+.list-group-flush{
+    padding: 0px;
+    margin: 30px 0px 0 0px;
+}
+.cumsover{
+    margin: 20px;
+}
+.mission-title{
+    color: #3a0b77eb;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        display: block;
+    }
+    .filter-contaniner,.cat-sub-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .page-title{
+        text-align: center;
+    }
+    
+  }
