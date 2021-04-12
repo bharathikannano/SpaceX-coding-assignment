@@ -7,6 +7,7 @@ function App() {
         <p className="page-title">SpaceX Launch Program</p>
         <Container/>
       </header>
+     <footer className="App-footer">Developed By: Bharathikannan</footer>
     </div>
   );
 }
