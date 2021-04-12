@@ -6,7 +6,7 @@ export default function Category({data}) {
     return ( <div className="cat-sub-container">
         <div className="col-md-4">
         <div className="col-md-12 border cumsover">
-        <img className="card-img-top" src={data.links.mission_patch} onerror="this.onerror=null;this.src='https://cdn3.vectorstock.com/i/1000x1000/60/27/rocket-missile-crashed-error-not-found-concept-vector-18916027.jpg'" alt="Rocket image not available" />
+        <img className="card-img-top" src={data.links.mission_patch} alt="Rocket image not available" />
         <div className="mission-title">{rocket.rocket_name} {rocket.rocket_type}</div>
           <ul className="list-group list-group-flush">
            <li className="list-group-item">Mission Ids: <span className="float-md-right">{mission_id[0]}</span></li>
