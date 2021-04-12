@@ -4,6 +4,13 @@
 .App-header {
     padding: 10px;
 }
+.App-footer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
 .page-title {
     font-size: 20px;
     color: #000;
